@@ -1,0 +1,28 @@
+@import '../../../node_modules/bootstrap/dist/css/bootstrap.css';
+@import '../../../node_modules/normalize.css/normalize.css';
+@import './fonts';
+@import './variables';
+@import './mixins';
+@import './icomoon';
+@import './home.scss';
+
+
+body{
+    background-color: $background-color;
+    font-family: $montserrat;
+    height: 100vh;
+    
+    #root{
+        height: 100%;
+    }
+    
+    button{
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 0;
+    }
+}
+
+
+

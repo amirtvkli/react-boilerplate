@@ -1,0 +1,12 @@
+@import './variables';
+
+a{
+    color: $primary-foreground-color; 
+    text-decoration: none;
+}
+a:hover{
+    color: $second-foreground-color;
+    transition: color .2s ease;
+    text-decoration: none;
+}
+
