@@ -11,7 +11,7 @@ This project is under develop and i'm adding different components.
 # Technologies used
 
 - Styling: `Sass`
-- Scripting: `Typescript` 
+- Scripting: `Javascript`
 - Frameworks: `React`
 
 # Features
