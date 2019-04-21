@@ -112,13 +112,12 @@ module.exports = env => {
     return {
         //context: path.resolve(__dirname, 'src'),
         entry: {
-            app: './src/index.jsx',
+            app: './src/index.js',
             //appStyles: './src/assets/styles/_app.scss',
             vendor: [
                 'react',
                 'react-dom',
                 'react-router-dom',
-                'gsap'
             ]
         },
         output: {
